@@ -2,7 +2,6 @@
 @echo off
 title BatOS Setup
 
-::TODO make this work
 call "../os/variables.bat"
 if defined installed goto icheck
 goto begin
